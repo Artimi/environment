@@ -238,3 +238,8 @@ set display=lastline
 set autoread " automatically update rewritten file
 
 let g:ycm_global_ycm_extra_conf = '/home/psebek/.vim/vim-addons/github-Valloric-YouCompleteMe/cpp/ycm/.ycm_extra_conf.py' 
+
+if has('gui_running')
+    set guifont=Monospace\ 9
+endif
+
