@@ -62,7 +62,6 @@ fun! SetupVAM()
               \ 'github:garbas/vim-snipmate',
               \ 'github:kien/ctrlp.vim',
               \ 'vim-airline',
-              \ 'github:davidhalter/jedi-vim', 
               \ 'github:klen/python-mode',
               \ 'github:mileszs/ack.vim',
               \ 'github:SirVer/ultisnips',
@@ -70,6 +69,7 @@ fun! SetupVAM()
               \ 'github:christoomey/vim-tmux-navigator',
               \ ], {'auto_install' : 1})
  
+              "\ 'github:davidhalter/jedi-vim', 
               "\ 'powerline',
               "\ 'github:Raimondi/delimitMate',
               "\ 'github:heavenshell/vim-pydocstring',
