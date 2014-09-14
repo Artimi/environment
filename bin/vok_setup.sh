@@ -52,18 +52,18 @@ xkb_symbols "basic" {
 
     key <AD01> {	[	  q,	Q, 		NoSymbol,	NoSymbol	]	};
     key <AD02> {	[	  w,	W,		EuroSign,	NoSymbol	]	};
-    key <AD03> {	[	  e,	E,		eacute,		ecaron		]	};
+    key <AD03> {	[	  e,	E,		eacute,		U00EB		]	};
     key <AD04> {	[	  r,	R,		rcaron,		NoSymbol	]	};
     key <AD05> {	[	  t,	T,		tcaron,		NoSymbol	]	};
     key <AD06> {	[	  y,	Y,		yacute,		NoSymbol	]	};
-    key <AD07> {	[	  u,	U,		uring,		uacute		]	};
+    key <AD07> {	[	  u,	U,		uring,		U00FC		]	};
     key <AD08> {	[	  i,	I,		iacute,		NoSymbol	]	};
-    key <AD09> {	[	  o,	O,		oacute,		NoSymbol	]	};
+    key <AD09> {	[	  o,	O,		oacute,		U00F6   	]	};
     key <AD10> {	[	  p,	P,		NoSymbol,	NoSymbol	]	};
     key <AD11> {	[ bracketleft,	braceleft,	uacute,		Uacute		]	};
     key <AD12> {	[ bracketright,	braceright,	NoSymbol,	NoSymbol	]	};
 
-    key <AC01> {	[	  a,	A,		aacute,		NoSymbol	]	};
+    key <AC01> {	[	  a,	A,		aacute,		U00E4   	]	};
     key <AC02> {	[	  s,	S,		scaron,		NoSymbol	]	};
     key <AC03> {	[	  d,	D,		dcaron,		NoSymbol	]	};
     key <AC04> {	[	  f,	F,		NoSymbol,	NoSymbol	]	};
@@ -79,7 +79,7 @@ xkb_symbols "basic" {
     key <AB02> {	[	  x,	X,		NoSymbol,	NoSymbol	]	};
     key <AB03> {	[	  c,	C,		ccaron,		NoSymbol	]	};
     key <AB04> {	[	  v,	V,		NoSymbol,	NoSymbol	]	};
-    key <AB05> {	[	  b,	B,		NoSymbol,	NoSymbol	]	};
+    key <AB05> {	[	  b,	B,		U00DF,	    U00DF	    ]	};
     key <AB06> {	[	  n,	N,		ncaron,		NoSymbol	]	};
     key <AB07> {	[	  m,	M,		NoSymbol,	NoSymbol	]	};
     key <AB08> {	[     comma,	less,		NoSymbol,	NoSymbol	]	};
@@ -90,7 +90,7 @@ xkb_symbols "basic" {
 
     key <LSGT> {	[ backslash,	bar,		ssharp,		dead_doubleacute]	};
     
-    key <SPCE> {	[     space,    U00A0,         U2009,		space		]	};
+    key <SPCE> {	[     space,    space,         space,		space		]	};
 
 };
 
